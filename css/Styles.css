@@ -1,0 +1,590 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.container{
+    width:1170px;
+    margin: 0px auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0px;
+    padding:0px;
+}
+ul{
+    margin:0px;
+    padding:0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    
+}
+h2{
+    font-size: 42px;
+  padding: 50px 0px;
+  color: transparent;
+  background: linear-gradient(to bottom, #ffa35e 0%,#fff45e 50%,#ffa35e 100%);
+    background-clip: border-box;
+  background-clip: text;
+}
+h3{
+    font-size: 39px;
+    padding:25px 0px;
+    color:transparent;
+    background: linear-gradient(to bottom, #ffa35e 0%,#fff45e 50%,#ffa35e 100%);
+    background-clip: text;
+}
+.contract{
+    background-color: #f7ab00;
+    padding: 25px 0px;
+    text-align: center;
+    display: flex;
+    
+}
+.social-logincon{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.social-logincon span{
+    padding: 10px;
+   
+}
+.social-logincon i{
+    font-size: 24px;
+    color:#fff;
+    padding: 0px 3px;
+}
+.social-logincon span{
+    font-size: 20px;
+    color: #6a4801;
+    font-weight: 600;
+}
+.social-logincon .social{
+    display: flex;
+    justify-content:space-evenly;
+}
+.social-logincon .login{
+    display: flex;
+    justify-content: space-around;
+}
+
+.login li{
+    padding:0px 10px;
+}
+.login span{
+    padding:0px;
+}
+
+.menubar{
+    padding: 25PX 0PX;
+    background-color:#f7ab00 ;
+    border-top: 2px solid #fff;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu nav a{
+    padding:0px 15px;
+    color:#825901; 
+}
+.menu nav a i{
+    padding:0px 5px;
+    font-size: 22px;
+    color:#fdebc1
+
+}
+
+.menu button {
+    padding:10px 20px;
+    background-color: #dd080e;
+    border:none;
+    border-radius: 5px;
+}
+.banner{
+    padding:100px 0px 500px 0px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.banner-con{
+    float:right;
+    color:#fff;
+    text-align: left;
+}
+.banner-con h1{
+    text-transform:uppercase;
+    padding: 10px 0px;
+    font-size: 62px;
+    color: transparent;
+    background-image:linear-gradient(to bottom, #da4603 0%,#daa203 50%,#da4603 100%);
+    background-clip: text;
+}
+
+.banner-con h3{
+    color: #b9787c;
+    font-size: 32px;
+    padding:15px 0px;
+}
+.banner-con p{
+    
+    padding:10px 0px;
+}
+.banner-con button{
+    margin: 15px 0px;
+ padding: 15px 30px;
+ background-color: #dd080e;
+ border: none;
+ border-radius: 5px;
+}
+.banner-con button a{
+  font-size: 22px;
+}
+.Big-con{
+    position: absolute;
+    top: 480px;
+  left: 459px;
+  color: #fff;
+}
+.Big-con .earn-big h2{
+    font-size: 35px;
+    padding: 10px 0px;
+}
+.Big-con .earn-big p{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.fatured-games{
+    background-color: #140001;
+    padding:50px 0px;
+    text-align: center;
+}
+.fatured-games h2{
+   font-size: 42px;
+   padding:50px 0px;
+  color:transparent;
+   background: linear-gradient(to bottom, #ffa35e 0%,#fff45e 50%,#ffa35e 100%);
+   background-clip: text;
+}
+
+
+.fatured-games .games{
+    display: flex;
+    justify-content:space-evenly;
+}
+.fatured-games .games .card{
+    background-color: #370b0c;
+    padding: 40px;
+    border-radius: 5px;
+}
+.fatured-games .games .card p{
+    font-size: 20px;
+    line-height: 24px;
+    padding:10px 0px;
+    color: #fff;
+}
+.Card-Section{
+    padding: 100px 0px;
+    background-color: #140001;
+}
+.cardCon{
+    display:flex;
+    justify-content:space-between;
+}
+.cardCon .card{
+    display: grid;
+    gap: 15px;
+}
+.faq-winner{
+    padding:100px 0px;
+    background-color:#140001;
+    display: flex;
+    justify-content: space-between;
+}
+/* .faq-winner .leftfaq h3{
+    font-size: 39px;
+   padding:25px 0px;
+  color:transparent;
+   background: linear-gradient(to bottom, #ffa35e 0%,#fff45e 50%,#ffa35e 100%);
+   background-clip: text;
+} */
+.leftfaq{
+    width:50%;
+    float: left;
+}
+
+
+.qa-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.qa-item {
+    margin-bottom: 15px;
+}
+
+.faq-winner .qa-question {
+    display: block;
+    padding: 15px;
+    text-align: left;
+    border:0.5px solid #ffff00;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.qa-question:hover {
+    background-color: #0056b3;
+}
+
+.qa-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    background-color: #ffffff;
+    border-left: 4px solid #ffff00;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: max-height 0.4s ease;
+}
+
+.qa-item input {
+    display: none;
+}
+
+.qa-item input:checked ~ .qa-answer {
+    max-height: 200px; /* Adjust this value as needed */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Rightfaq{
+    width:40%;
+    float: right;
+    
+}
+.recentWinners {
+    border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); */
+    text-align: center;
+  }
+  
+.recent-winners h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f9d923;
+  }
+  
+  .winners-list {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    background-color: #5a1a1a;
+    padding:20px 0px;
+  }
+  
+  .winner {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #fff;
+  }
+  
+  .winner .flag img {
+    width: 30px;
+    height: 20px;
+    border-radius: 3px;
+  }
+  
+  .winner .name {
+    flex: 1;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  
+  .winner .amount {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .promo {
+    background-image: url("../img/recent.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #5a1a1a;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .promo h4 {
+    margin: 0 0 10px;
+    font-size: 28px;
+    line-height: 32px;
+    color: transparent;
+  background: linear-gradient(to bottom, #ffa35e 0%,#fff45e 50%,#ffa35e 100%);
+    background-clip: border-box;
+  background-clip: text
+  }
+  
+  .promo button {
+    background-color: #d62020;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .promo button:hover {
+    background-color: #a51818;
+  }
+.jackpotsWinner{
+    display:flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+    background-color: #370b0c;
+} 
+.pricecon{
+    display: flex;
+    justify-content: space-between;
+}
+.progressive-jackpots{
+    width:30%;
+    float:left;
+}
+
+ .game a{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+   gap: 20px;
+
+}
+ .game img{
+    border-radius:5px
+}
+.progressive-jackpots h4{
+    font-size: 25px;
+    text-align: center;
+    padding:20px 0px;
+    color:#af7376;
+    border-bottom: 2px dashed #755757;
+    margin-bottom:30px;
+}
+.details h5{
+    font-size:20px ;
+    line-height: 24px;
+    color: #b6787b;
+}
+.details p{
+    color: #b6787b;
+}
+.jackpot-winners{
+    width:30%;
+    float:left;
+}
+.progressive-jackpot h4{
+    font-size: 25px;
+    text-align: center;
+    padding:20px 0px;
+    color:#af7376;
+    border-bottom: 2px dashed #755757;
+    margin-bottom:30px;
+}
+.progressive-jackpot .p{
+    font-size: 25px;
+    padding:20px 0px;
+    color:#fff;
+}
+
+.jackpot-winners .qa-section {
+    
+    margin: 0 auto;
+    padding: 20px 0px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jackpot-winners h4{
+    font-size: 25px;
+    text-align: center;
+    padding:20px 0px;
+    color:#af7376;
+    border-bottom: 2px dashed #755757;
+    margin-bottom:30px;
+}
+
+.jackpot-winners .qa-item {
+    margin-bottom:0px;
+}
+
+.jackpot-winners .qa-question {
+    background-color: transparent;
+    border-bottom: 2px dashed #b7a7a7;
+    color: #b6787b;
+    display: block;
+    padding: 15px;
+    text-align: left;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+
+}
+.jackpot-winners .qa-question span {
+    color: #fff;
+    padding-left: 15px;
+}
+
+.qa-question:hover {
+    background-color: #370b0c;
+}
+
+.jackpot-winners .qa-answer {
+    background-color:transparent;
+    border-left: none;
+}
+
+.qa-item input {
+    display: none;
+}
+
+.jackpot-winners .qa-item input:checked ~ .qa-answer {
+    max-height: 200px; /* Adjust this value as needed */
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.progressive-jackpot{
+    width:30%;
+    float: right;
+}
+.bonus{
+    background-image: url("../img/bounass.jpg");
+    padding:100px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bcon{
+    text-align: center;
+    width:690px;
+   
+}
+.bonus h2{
+    font-size: 58px;
+  padding: 50px  0px 10px 0px;
+  color:#e48100;
+  
+}
+.bonus h3{
+    font-size: 40px;
+  padding: 20px 0px 20px 60px;
+  color:#b9777b;
+  text-align: left;
+}
+.bonus p{
+    font-size: 22px;
+    line-height: 26px;
+  padding: 20px 0px;
+  color:#fff;
+  
+}
+.bonus button{
+  padding: 15px 30px;
+  color:#fff;
+  background-color: #a51818;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+    font-style: bold;
+}
+.prom{
+    padding:50px;
+    background-color: #72080c;
+    color: #fff;
+    text-align: center;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.prom .prasent-box{
+    display: flex;
+    justify-content: space-between;
+}
+.prom .prasent-box .box{
+    display: flex;
+    
+}
+.prom .prasent-box .box img{
+   padding-right: 10px;
+    
+}
+.prom .prasent-box .box p{
+    padding-top: 10px;
+
+}
+.Winning{
+    padding:5px;
+    border:1px solid #f0c006;
+}
+.fotter{
+    background-image: url(../img/fotter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:100px 0px;
+    color: #fff;
+}
+.fottercon {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer-column {
+    width: 22%;
+}
+.footer-column h3 {
+   font-size: 22px;
+   color:#fff;
+}
+.footer-column p {
+    padding:10px 0px;
+    
+ }
+.footer-column ul li {
+    margin: 5px 0;
+}
+.contact-btn {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.security-icons {
+    display: flex;
+    gap: 10px;
+}
+.download-link {
+    color: white;
+    text-decoration: underline;
+}
